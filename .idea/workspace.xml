@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af23dd8c-dd92-4e47-9647-457ac498490e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AbsBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/scopeds/GuiceScoped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/otus/RunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/otus/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/otus/steps/MainPageStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/otus/main_page.feature" afterDir="false" />
+    <list default="true" id="af23dd8c-dd92-4e47-9647-457ac498490e" name="Changes" comment="Project created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/annotations/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/data/BrowserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/driver/IFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/driver/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/exceptions/BrowserNotSupported.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/pages/AbsBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/otus/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/otus/steps/common/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AbsBasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scopeds/GuiceScoped.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/otus/scopeds/GuiceScoped.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/otus/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/otus/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/otus/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/otus/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/otus/steps/MainPageStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/otus/steps/MainPageStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/otus/main_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/otus/main_page.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +54,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Danil/cucumber_otus&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Danil/OtusPractice1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Danil\Cucumber_practice\src\test\resources" />
+      <recent name="C:\Danil\Cucumber_practice\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunnerTest">
+    <configuration name="Feature: main_page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/otus/main_page.feature" />
+      <option name="GLUE" value="otus.steps otus.hooks otus.common" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_practice" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: main_page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Проверка страницы курса" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/otus/main_page.feature" />
+      <option name="GLUE" value="otus.steps otus.hooks otus.common" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Cucumber_practice" />
+      <option name="NAME_FILTER" value="^Проверка страницы курса$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Проверка страницы курса$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Проверка страницы курса" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Проверка заголовка на главной страницу" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/otus/main_page.feature" />
@@ -77,8 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="otus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="otus" />
+      <option name="MAIN_CLASS_NAME" value="otus.RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerTest" />
+        <item itemvalue="Cucumber Java.Scenario: Проверка страницы курса" />
+        <item itemvalue="Cucumber Java.Feature: main_page" />
         <item itemvalue="Cucumber Java.Scenario: Проверка заголовка на главной страницу" />
       </list>
     </recent_temporary>
@@ -92,6 +166,14 @@
       <option name="presentableId" value="Default" />
       <updated>1746408535835</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project created">
+      <created>1746575047958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746575047958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project created" />
   </component>
 </project>

@@ -1,10 +1,9 @@
 package otus.hooks;
 
 import com.google.inject.Inject;
-import io.cucumber.guice.ScenarioScoped;
 import io.cucumber.java.After;
 import org.openqa.selenium.WebDriver;
-import scopeds.GuiceScoped;
+import otus.scopeds.GuiceScoped;
 
 public class Hooks {
   @Inject
@@ -12,7 +11,7 @@ public class Hooks {
 
   @After
   public void close(){
-    WebDriver driver = guiceScoped.getDriver();
+    WebDriver driver = guiceScoped.driver;
 
     if (driver != null) {
       driver.quit();
